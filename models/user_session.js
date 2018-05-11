@@ -19,8 +19,8 @@ exports.create = function(userId, callback){
         userId: userId,
         recentlyViewedProducts: [],
         lastVisited: moment.now(),
-        currency: 'THB',
-        language: 'th'
+        currency: 'USD',
+        language: 'en'
     }
     DB.insert(collectionName, obj, function(err, hasCreated, db){
         if (err){

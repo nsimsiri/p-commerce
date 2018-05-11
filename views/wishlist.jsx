@@ -15,7 +15,8 @@ var WishListComponent = React.createClass({
     },
     getProductList: function(){
         if (this.state.productWrappers && this.state.productWrappers.length>0){
-            return (<div><ProductResultList productWrappers={this.state.productWrappers} actions={['remove']}/></div>)
+            return (<div><ProductResultList productWrappers={this.state.productWrappers} actions={['remove']}
+                        req={this.props.req}/></div>)
         }
         return (<div data-i18n="no-items-in-wishlist">ไม่มีสินค้าในวิชลิสต์</div>)
     },

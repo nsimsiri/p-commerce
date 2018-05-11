@@ -113,7 +113,7 @@ var ProductComponent = React.createClass({
             <div id="productPageDefaultLayout" data-product={JSON.stringify(this.state.leanProduct)}/>
             <script src="/js/product_page.js"/>
 				<div className="row">
-					<h3><span>หน้าแสดงสินค้า "{this.props.product.name}"</span></h3>
+					<h3><span><span data-i18n="หน้าแสดงสินค้า">หน้าแสดงสินค้า</span> "{this.props.product.name}"</span></h3>
                     <h5>
                       <span data-i18n="seller">ผู้ขาย</span>
                     &nbsp;<a href={this.getRequestUrl()}>{this.props.profile.firstname} {this.props.profile.lastname} </a>

@@ -16,7 +16,7 @@ var MasterLayout = React.createClass({
             user: this.props.req ? this.props.req.user : null,
             userSession: this.props.req ? this.props.req.userSession : null,
             searchData: this.props.req ? this.props.req.searchData : null,
-            pageTitle: this.props.pageTitle ? this.props.pageTitle + " | ENNXO" : 'ENNXO'
+            pageTitle: this.props.pageTitle ? this.props.pageTitle + " | P-COMMERCE" : 'P-COMMERCE'
         }
     },
 

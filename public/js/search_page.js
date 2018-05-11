@@ -3,7 +3,7 @@
 
 var set_i18n = function(locale){
     console.log("LOCALE: " + locale)
-    locale = (locale == 'en' || locale == 'th') ? locale : 'th' //normalize to english
+    locale = (locale == 'en' || locale == 'th') ? locale : 'en' //normalize to english
     $.i18n.debug = true;
     $.i18n().locale = locale
     $.i18n().load( {

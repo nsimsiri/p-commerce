@@ -6,7 +6,7 @@ var FooterComponent = React.createClass({
 			<footer>
 				<div className="container">
 					<hr />
-					<p className="pull-left">© ENNXO 2017</p>
+					<p className="pull-left">© P-COMMERCE 2017</p>
 					<div className="pull-right">
 						<ul className="list-inline">
 							<li><a href="#">About</a></li>

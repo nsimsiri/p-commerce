@@ -19,6 +19,7 @@ var ProductResultListComponent = React.createClass({
     getInitialState: function(){
         // other parameters to remember
         return {
+            req: this.props.req,
             productWrappers: this.props.productWrappers,
             id: this.props.id,
             actions: this.props.actions,
@@ -30,6 +31,7 @@ var ProductResultListComponent = React.createClass({
         }
     },
     haveUpdateDeletePrivilege: function(product) {
+        console.log(this.props);
         const user = this.props.req.user;
         if (user && user.permissions && user.permissions.length > 0){
             const hasPermission = _.find(user.permissions, userPermission => userPermission.name == ADMIN_PERMISSION);

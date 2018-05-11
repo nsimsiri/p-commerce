@@ -55,8 +55,6 @@ var SearchComponent = React.createClass({
         var self = this;
         var linkStyle = {'text-decoration':'none', 'color': '#787878'};
 
-        console.log('sub-------------------------------------');
-        console.log(this.state.subcategories);
         if (this.state.subCategories && this.state.subCategories.length > 0){
             return (<div>
                 <h4> <i className="fa fa-list" aria-hidden="true" style={{'font-size': '25px'}}></i> <span data-i18n="subcategories">แผนกย่อย</span></h4>
@@ -162,7 +160,6 @@ var SearchComponent = React.createClass({
     },
 
     queryData: function(){
-        console.log('-------------------'+this.props.categoryId);
         return {
             searchTerm: this.props.searchTerm,
             location: this.props.location,
