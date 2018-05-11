@@ -1,6 +1,13 @@
 # P-Commerce
 Prototype Peer2Peer E-commerce Website using Express.js/Node.js/Server-side-rendered React/MongoDB as backend, and JQuery frontend.
-Features include  
+Features include:
+  - basic functionality i.e User Account and Permissions, CRUD on ecommerce related entities
+  - automatic saving for the product upload form.
+  - arbitrary sub-category definitions
+  - multi-group substring search (if name corresponds to category, will display both products from that category and products with substring)
+  - real-time chat using socket.io
+  - localization by i18 standards & USD/THB currency conversion.
+  - product view history and wishlist with no registration required.
 
 ### Prerequisites
 
