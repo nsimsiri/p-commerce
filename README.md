@@ -37,17 +37,17 @@ mocha
 ```
 
 ### File Structure
-- ./app.js - application initializer, server, server-configurations such as routes, and middleware defined here.
-- ./db.js - interface to the mongo database.
-- ./config.js - various configurations, contains 'drop_create_mock_db' flag which setting to true will drop and create
+- **./app.js** - application initializer, server, server-configurations such as routes, and middleware defined here.
+- **./db.js** - interface to the mongo database.
+- **./config.js** - various configurations, contains 'drop_create_mock_db' flag which setting to true will drop and create
 a new database populated with mock data.
-- ./models - business entity definition which provides persistence interface.
-- ./controllers - actions on each route. 
-- ./middleware - various modules used as callback in express when a route is access.
-- ./authentication - modules for configuring authentication and permission.
-- ./public - files served to client.
-- ./views - React classes to be rendered in server-side.
-- ./test - unit tests
+- **./models** - business entity definition which provides persistence interface.
+- **./controllers** - actions on each route. 
+- **./middleware** - various modules used as callback in express when a route is access.
+- **./authentication** - modules for configuring authentication and permission.
+- **./public** - files served to client.
+- **./views** - React classes to be rendered in server-side.
+- **./test** - unit tests
 
 
 
